@@ -9,14 +9,16 @@
   </head>
   <body>
       <main>
-         <h1>Welcome!</h1>
          <?php
             if(!isset($_COOKIE['user_id'])) {
 	        echo "no cookie";
             }
             $user_id = $_COOKIE['user_id'];
-            echo "<p>Welcome ".$user_id."!</p>";
+            echo "<h1>Welcome ".$user_id."!</h1>";
          ?>
+         
+         <a href="./newqna.php">Wanna write new qna?</a>
+         <a href="./qnasearch.php">Wanna see past qna's? If you are not the admin, you cannot see other members' qna!</a>
       </main>
   </body>
 </html>

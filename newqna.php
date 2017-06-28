@@ -9,7 +9,13 @@
   </head>
   <body>
       <main>
-         <h1>You're not a member. Or you entered a wrong password!</h1>
+         <h1>New QnA</h1>
+         
+         <form method="get" action="update_qna.php">
+          title :  <input type="text" name="title" />
+          question : <input type="text" name="question" />
+         <input type="submit" />
+         </form>
       </main>
   </body>
 </html>
