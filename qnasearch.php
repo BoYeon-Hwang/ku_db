@@ -24,7 +24,7 @@ if ($user_id === 'admin') {
         }
         echo "</table>";
         
-        echo '<h1>Want to delete or modify a question? in the first box, write to delete / wirte m to modify</h1>
+        echo '<h1>Want to delete or modify a question? in the first box, write "d" to delete / write "m" to modify</h1>
          
          <form method="get" action="action_by_admin.php">
           action : <input type="text" name="action" />
@@ -51,7 +51,7 @@ else{
         }
         echo "</table>";
         
-        echo '<h1>Want to delete or modify a question? in the first box, write to delete / wirte m to modify</h1>
+        echo '<h1>Want to delete or modify a question? in the first box, write "d" to delete / write "m" to modify</h1>
          
          <form method="get" action="action.php">
           action : <input type="text" name="action" />
